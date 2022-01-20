@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "sass": "^1.49.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-GoodkaT65/portfolio-project.git"
+  },
+  "author": "Arash Darvishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-GoodkaT65/portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Mr-GoodkaT65/portfolio-project#readme"
+}
