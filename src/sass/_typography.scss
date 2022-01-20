@@ -1,0 +1,19 @@
+%heading {
+  font-weight: 400;
+  line-height: 1;
+}
+
+.heading-1 {
+  @extend %heading;
+}
+
+.heading-2 {
+  @extend %heading;
+  text-transform: uppercase;
+}
+.heading-3 {
+  @extend %heading;
+}
+.heading-4 {
+  @extend %heading;
+}

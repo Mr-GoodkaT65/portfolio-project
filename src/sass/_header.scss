@@ -1,0 +1,59 @@
+.header {
+  grid-column: full-start / full-end;
+
+  background-image: linear-gradient(
+      rgba($color-dark, 0.2),
+      rgba($color-dark, 0.2)
+    ),
+    url(../assets/header-image.jpg);
+  background-size: cover;
+  background-position: center;
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 10rem;
+    width: 100%;
+    background: transparent;
+
+    &__logo a {
+      text-decoration: none;
+      color: $color-light;
+      font-size: 2.5rem;
+    }
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-link {
+        list-style: none;
+
+        button {
+          @include btn;
+        }
+
+        a {
+          text-decoration: none;
+          color: $color-light;
+        }
+      }
+    }
+
+    &__currency {
+      @include btn;
+    }
+
+    &__cta {
+      @include btn;
+    }
+  }
+
+  .hero {
+    margin: 2rem auto;
+    text-align: center;
+  }
+}

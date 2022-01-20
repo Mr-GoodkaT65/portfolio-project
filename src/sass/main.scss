@@ -1,3 +1,13 @@
-.title1 {
-  color: red;
-}
+@import "abstracts";
+@import "layout";
+@import "components";
+@import "why-niarra";
+@import "header";
+@import "services";
+@import "locations";
+@import "products";
+@import "stories";
+@import "signup";
+@import "footer";
+@import "typography";
+@import "base";

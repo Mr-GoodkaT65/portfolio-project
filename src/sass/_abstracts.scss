@@ -1,0 +1,13 @@
+$color-green: #283a2c;
+$color-light: #fcfcfc;
+$color-grey: #636363;
+$color-dark: #222;
+$color-gold: #6f7a52;
+$btn: #283a2c;
+$btn-hover: #fc6220;
+
+@mixin btn {
+  border: none;
+  background: transparent;
+  outline: none;
+}
